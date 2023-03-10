@@ -1,0 +1,35 @@
+/* svg:hover {
+  fill: red;
+  stroke: white;
+} */
+
+.container {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  /* height: 900px;
+  width: 900px; */
+  border-color: black;
+  border-radius: 40%;
+  background-color: beige;
+}
+
+.gyeng-buk {
+  fill: grey;
+}
+
+/* svg .municipality {
+  fill: #efefef;
+  stroke: #fff;
+} */
+
+[class^="municipality-"]:hover {
+  fill: blue;
+}
+
+.municipality-label {
+  fill: orange;
+  font-size: 13px;
+  font-weight: 1000;
+  text-anchor: middle;
+}
